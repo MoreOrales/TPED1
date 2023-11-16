@@ -1,13 +1,22 @@
 header {
     background-color: rgb(255, 0, 85);
 }
-
+ul{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+li{
+    width: 25%;
+}
 section {
     background-color: beige;
 }
 
 img {
-    width: 33%;
+    width: 100%;
     height: auto;
     filter: sepia(100);
 }
