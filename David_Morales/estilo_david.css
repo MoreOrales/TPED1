@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    width: 100%;
+    height: 60vh;
+}
+header ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-content: flex-end;
+    /* background-color: aquamarine; */
+    list-style-type: none;
+}
+header li{
+width: 14%;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+a:hover{
+    position: relative;
+    left: 5px;
+    text-decoration:none;
+    font-weight: bold;
+    color: hotpink;
+}
+header{
+    height: 20vh;
+    /* background-color: rgb(90, 168, 210); */
+}
+h1{
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rosybrown;
+}
+.Imagen{
+        height: 60vh;
+        background-image: url("img/DSC02945-1229x1536.jpg");
+        background-size: cover;
+        width: 100%;
+}
+h2{
+    font-size: 6em;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h3{
+    width: 50%;
+    font-size: 3em;
+    background-color: white;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.Imagen p{
+    width: 50%;
+    background-color: white;
+    text-align: left;
+}
+
+/* .Elemento ul{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+    list-style-type: none;
+}
+.Elemento li{
+    width: 20%;
+} */
+
+.Abajo{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Elemento{
+    width: 30%;
+    min-width: 250px;
+    background-color: aqua;
+}
+.Elemento img{
+    width: 100%;
+
+}

@@ -1,0 +1,60 @@
+
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#p1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+#p2{
+    font-family: 'Dhurjati', sans-serif;
+}
+
+#p3{
+    font-family: 'Holtwood One SC', serif;
+}
+
+#p4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#p5{
+    font-family: 'Kanit', sans-serif;   
+}
+#p6{
+    font-family: 'Lobster', sans-serif;   
+}
+
+#p7{
+    font-family: 'Sacramento', cursive;
+}
+
+#p8{
+    font-family: 'Pacifico', cursive;
+}
+
+#p9{
+    font-family: 'Playpen Sans', cursive;
+}
+
+section {
+   
+    width: 100%;
+    /* background-color: rgb(221, 102, 12); */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+div{
+    margin-bottom: 20px;
+    width: 30%;
+    background-color: rgb(181, 181, 243);
+
+}
+
+h2{
+    font-size: 60px;
+    font-family:'Josefin Sans', sans-serif;
+    text-align: center
+}

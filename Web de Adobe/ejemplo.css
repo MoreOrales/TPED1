@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* background-color: aqua;  */
+}
+main {
+  height: 85vh;
+  width: 100%;
+  background-image: url("imagen/fondo.jpg");
+  background-size: cover;
+  background-color: blueviolet;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+}
+header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style-type: none;
+
+  /* background-color: black; */
+}
+
+.izq {
+  padding-left: 10%;
+  width: 50%;
+  height: 100%;
+  /* background-color: aqua; */
+  height: 10vh;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.der {
+  width: 50%;
+  /* background-color: rgb(255, 204, 0); */
+  height: 10vh;
+}
+.der ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 30%;
+  height: 10vh;
+}
+
+.A {
+  /* display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: start;
+  list-style-type: none; */
+  width: 45%;
+  height: 50vh;
+  background-color: rebeccapurple;
+}
+.B {
+  /* padding-left: 3vh; 
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: end;
+  align-items: end; */
+  height: 50vh;
+  width: 45%;
+  background-color: red;
+}
+#Frase{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#Frase div{
+  width: 25%;
+}
+.Título {
+  margin-bottom: 5%;
+}
+a {
+  text-decoration: none;
+  color: rgb(75, 148, 208);
+}
+footer {
+  height: 30vh;
+  width: 100%;
+  /* background-color: brown; */
+}
