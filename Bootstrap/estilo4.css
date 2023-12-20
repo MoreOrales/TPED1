@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sup{
+    height: 30vh;
+    background-color: blanchedalmond;
+}
+
+#izq{
+    background-color: aqua;
+    height: 70vh;
+}
+#centro{
+    background-color: darkblue;
+    height: 70vh;
+}
+#drcha{
+    background-color: blueviolet;
+    height: 70vh;
+}
+#inf{
+    background-color: rosybrown;
+    height: 10vh;
+}

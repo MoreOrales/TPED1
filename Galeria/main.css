@@ -1,0 +1,17 @@
+header {
+    background-color: rgb(255, 0, 85);
+}
+
+section {
+    background-color: beige;
+}
+
+img {
+    width: 33%;
+    height: auto;
+    filter: sepia(100);
+}
+
+a:hover img {
+    filter: saturate(1);
+}

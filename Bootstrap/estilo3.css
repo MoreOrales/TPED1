@@ -4,17 +4,20 @@
     padding: 0;
 }
 
-#sup{
-    height: 30vh;
-    background-color: blanchedalmond;
-}
-
-#izq{
+#izq1{
     background-color: aqua;
-    height: 70vh;
+    height:30vh ;
+}
+#izq2{
+    background-color: aqua;
+    height:70vh ;
 }
 
-#drcha{
+#drcha1{
+    background-color: blueviolet;
+    height: 30vh;
+}
+#drcha2{
     background-color: blueviolet;
     height: 70vh;
 }
