@@ -1,15 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+}
+
 header {
     background-color: rgb(255, 0, 85);
 }
 ul{
     display:flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content:space-between;
+    align-content: center;
     list-style-type: none;
 }
 li{
-    width: 25%;
+    margin: 10px;
+    width: 20%;
 }
 section {
     background-color: beige;
