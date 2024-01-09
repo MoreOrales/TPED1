@@ -3,20 +3,38 @@
     margin: 0;
     padding: 0;
 }
+#fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    align-content: center;
+}
+
+#inline li{
+    display: inline-block;
+    color: green;
+}
+
+#lista{
+   list-style-type: none;
+   color: green;
+}
 
 #izq{
     /* background-color: aqua; */
     height: 70vh;
+    /* width: 33%; */
 }
-
 
 #drcha{
     /* background-color: blueviolet; */
     height: 70vh;
+    /* width: 33%; */
 }
 #centro{
-    /* background-color: red; */
+    /* background-color: red;  */
     height: 70vh;
+    /* width: 33%; */
 }
 
 #izq2{
