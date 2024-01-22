@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+#izq{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
 header{
   height: 20vh;
   background-color: black;
