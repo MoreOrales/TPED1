@@ -22,37 +22,7 @@ h2{
   height: 3vh;
   margin-bottom: 10vh;
 }
-#rectangulo2 {
-  background-color: orange;
-  width: 90%;
-  height: 3vh;
-  margin-bottom: 10vh;
-}
-#rectangulo3 {
-  background-color: orange;
-  width: 55%;
-  height: 3vh;
-  margin-bottom: 10vh;
-}
-#rectangulo4 {
-  background-color: orange;
-  width: 40%;
-  height: 3vh;
-  margin-bottom: 10vh;
-}
-#rectangulo5 {
-  background-color: orange;
-  width: 35%;
-  height: 3vh;
-  margin-bottom: 10vh;
-}
-#centro1 {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-content: center;
-  margin-bottom: 50vh;
-}
+
 #fila1 {
   height: 20vh;
   margin-bottom: 5vh;
@@ -64,13 +34,6 @@ h2{
 #fila2 {
   display: flex;
   flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  margin-bottom: 20vh;
-}
-#fila3 {
-  display: flex;
-  flex-flow: row-reverse wrap;
   justify-content: flex-start;
   align-items: flex-start;
   margin-bottom: 20vh;
